@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.container{
+    width:200px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    padding :25px 35px;
+    position :absolute;
+    background-color:bisque;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:rgb(160, 6, 88) 2px 2px 2px 2px;
+
+}
+.container p{
+    margin-bottom :10px;
+    background-color: transparent;
+
+
+}
+.container input{
+    margin-bottom :10px;
+    height: 25px;
+    border-radius: 7px;
+    padding-left: 0.75rem;
+    background-color: white;
+}
+.container button{
+    background-color: rgb(22, 105, 102);
+    color: aliceblue;
+    width: 155px;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 7px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+
+}
