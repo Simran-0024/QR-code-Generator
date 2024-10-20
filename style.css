@@ -50,3 +50,6 @@ form{
     background-color: transparent;
 
 }
+#hide{
+    visibility: hidden;
+}
